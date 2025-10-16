@@ -55,13 +55,15 @@ if (process.env.NODE_ENV !== 'production') {
 
 // Serve static assets in production
 if (process.env.NODE_ENV === 'production') {
-  // Set static folder
-  app.use(express.static(path.join(__dirname, '../client/build')));
+  // Serve static files from the React app build folder
+  app.use(express.static(path.join(__dirname, 'client', 'build')));
 
-  app.get('/:path*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
+  // Handle any other route and send back React's index.html
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
   });
 }
+
 
 // Error handling middleware
 app.use((err, req, res, next) => {
