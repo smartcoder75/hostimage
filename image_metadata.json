@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1760108335805,
+    "userId": 1003,
+    "username": "testuser",
+    "filename": "abhi.jpg",
+    "filepath": "uploads\\file-1760108335584-564267996.jpg",
+    "url": "http://localhost:3000/uploads/file-1760108335584-564267996.jpg",
+    "uploadDate": "2025-10-10T14:58:55.805Z",
+    "size": 1272708
+  },
+  {
+    "id": 1760108468174,
+    "userId": 1004,
+    "username": "abhishek",
+    "filename": "home wallpager.jpg",
+    "filepath": "uploads\\file-1760108468135-687192003.jpg",
+    "url": "http://localhost:3000/uploads/file-1760108468135-687192003.jpg",
+    "uploadDate": "2025-10-10T15:01:08.174Z",
+    "size": 557076
+  },
+  {
+    "id": 1760177650501,
+    "userId": 1005,
+    "username": "coderabhi",
+    "filename": "1024px-Meta-Logo.png",
+    "filepath": "uploads\\file-1760177650480-366944093.png",
+    "url": "http://localhost:3000/uploads/file-1760177650480-366944093.png",
+    "uploadDate": "2025-10-11T10:14:10.501Z",
+    "size": 71878
+  },
+  {
+    "id": 1760177719405,
+    "userId": 1005,
+    "username": "coderabhi",
+    "filename": "256px-Tailwind_CSS_Logo.svg.png",
+    "filepath": "uploads\\file-1760177719374-553847306.png",
+    "url": "http://localhost:3000/uploads/file-1760177719374-553847306.png",
+    "uploadDate": "2025-10-11T10:15:19.405Z",
+    "size": 3558
+  },
+  {
+    "id": 1760183415707,
+    "userId": 1005,
+    "username": "coderabhi",
+    "filename": "1760148382956.jpg",
+    "filepath": "uploads\\file-1760183415654-549729928.jpg",
+    "url": "http://localhost:3000/uploads/file-1760183415654-549729928.jpg",
+    "uploadDate": "2025-10-11T11:50:15.707Z",
+    "size": 1565177
+  }
+]
