@@ -58,11 +58,12 @@ if (process.env.NODE_ENV === 'production') {
   // Serve static files from the React app build folder
   app.use(express.static(path.join(__dirname, 'client', 'build')));
 
-  // Handle any other route and send back React's index.html
-  app.get('*', (req, res) => {
+  // Catch-all route for React SPA (Express 5 safe)
+  app.get('/:path(.*)', (req, res) => {
     res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
   });
 }
+
 
 
 // Error handling middleware
